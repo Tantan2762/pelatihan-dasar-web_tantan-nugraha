@@ -1,0 +1,92 @@
+section img{
+	width:100%;
+}
+ul img{
+	padding : 1.5em 1.5em;
+	width:50%;
+}
+body,nav, p, h1, h2, h3{
+	margin:0px;
+	padding:0px;
+	font-family: arial;
+	background: #E8F6EF;
+	font-size:21px;
+}
+
+li{
+	background:#B8DFD8;
+	font-size:25px;
+}
+
+header{
+	background-color: #B8DFD8;
+	padding: 28px;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+body header h1{
+	color: black;
+	padding: 6px 12px;
+	display: inline-block;
+	border-radius: 0px;
+	font-size:35px;
+}
+
+banner img{
+	object fit: cover;
+	width: 100vw;
+	height: 100vw;
+}
+
+section h2{
+	background:#E8F6EF;
+	padding: 1em 1em;
+}
+
+nav{
+	background: #f6ff80;
+	padding: 28px;
+	position: sticky;
+	top: 106px;
+	z-index: 1;
+}
+
+nav ul{
+	white space: nowrap;
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+}
+
+nav li{
+	width: 25%;
+	display: inline-block;
+}
+
+nav li:hover{
+	text decoration: underline;
+}
+main{
+	max-width: 100%;
+	width: 1208px;
+	margin: 00px auto;
+	padding: 0 48px;
+	box-sizing: border box;
+}
+section img{
+	position: relative;
+}
+ul img{
+	position: relative;
+}
+section h2{
+	font-size:25px;
+}
+footer p{
+	padding: 2em 2em;
+	background-color:#B8DFD8;
+}
